@@ -5,18 +5,10 @@
 #### Part 1: Load into separate staging tables
 - **Task 1: Load staging tables with Talend**
   - Choose staging tables options: Azure SQL, SQL Server, MySQL, or Azure MySQL.
-  - Deliverables:
-    - Screenshots of completed Talend jobs.
-    - Time taken for each profiling job.
-    - List of tables with row counts.
 
 - **Task 2: Create a Dimensional Data Model**
   - Create a dimensional data model using ER/Studio or Navicat.
   - Create SQL DDL script for the dimensional data model for the same database as stage tables.
-  - Deliverables:
-    - Screenshot of the data model.
-    - Data model file.
-    - SQL DDL script.
 
 #### Part 2: Load integration schema (dimensional model)
 - **Task 1: Load data from STG tables to dimensional model & perform data cleansing**
@@ -29,10 +21,6 @@
 - **Task 2: Load Dimensional Model**
   - Load staging tables with Talend.
   - Choose dimensional tables options: Azure SQL, SQL Server, MySQL, or Azure MySQL.
-  - Deliverables:
-    - Screenshots of completed Talend jobs.
-    - Time taken for each profiling job.
-    - List of tables with row counts.
 
 #### Task 3: Query Integration Schema to answer business questions & Create dashboards
 - **Query Integration Schema to answer business questions**
